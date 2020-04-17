@@ -12,7 +12,7 @@ Getting started: The Minimal Maven Project\
 Maven Basics: The Simple Maven Project\
 Unit Testing\
 Installing Eclipse and Configuration on Windows\
-Using maven with Eclipse\
+Using maven with Eclipse
 
 ## CI(using Jenkin)
 Introduction to Jenkins\
