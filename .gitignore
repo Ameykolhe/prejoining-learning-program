@@ -16,6 +16,12 @@ hs_err_pid*
 .classpath
 .project
 
+# Eclipse configuration files
+.metadata
+
+# Eclipse Bin files
+**/bin
+
 # Maven Target Files
 **/target/surefire-reports/
 **/target/maven*/
