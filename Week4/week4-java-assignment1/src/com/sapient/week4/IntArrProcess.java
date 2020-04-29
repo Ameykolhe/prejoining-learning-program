@@ -15,14 +15,10 @@ public class IntArrProcess {
 	
 	
 	public IntArrProcess(int []arr) {
-		this.arr = new int[arr.length];
-		
-		for (int i = 0; i < arr.length; i++) {
-			this.arr[i] = arr[i];
-		}
+		this.arr =	arr;
 	}
-	
-	
+
+
 	public IntArrProcess(IntArrProcess ref) {
 		this.arr = new int[ref.arr.length];
 		
@@ -124,6 +120,32 @@ public class IntArrProcess {
 		}
 	}
 	
+	
+	public int[] getArr() {
+		return arr;
+	}
+	
+	
+	public boolean equals(Object o) {
+		if (o == this) {
+			return true;
+		}
+		
+		if (!(o instanceof IntArrProcess)) { 
+            return false; 
+        }
+		
+		IntArrProcess obj = (IntArrProcess) o;
+		
+		for (int i = 0; i < this.arr.length; i++) {
+			if (this.arr[i] != obj.arr[i]) {
+				return false;
+			}
+		}
+		
+		return true;
+
+	}
 	
 	public void finalize() {
 		this.arr = null;

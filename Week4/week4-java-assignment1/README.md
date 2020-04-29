@@ -26,11 +26,22 @@ Write a java class (Int_Arr_Process)
     2. Execute IntArrProcessRunner as a Java Application.
 
 * Using Command Prompt / Console
-    1. Change Directory to Project Root.
-    2. Execute Command : `java -jar week4-java-assignment1.jar`
+    * Change Directory to Project Root.
+    * To Test Project run : `java -cp week4-java-assignment1.jar org.junit.runner.JUnitCore com.sapient.week4.IntArrProcessTest`
+    * To Execute Project run : `java -jar week4-java-assignment1.jar`
 
 ## Sample Output
 
+### Junit Test Cases
+    D:\Sapient\prejoining-learning-program\Week4\week4-java-assignment1>java -cp week4-java-assignment1.jar org.junit.runner.JUnitCore com.sapient.week4.IntArrProcessTest
+    JUnit version 4.13
+    .....
+    Time: 0.011
+
+    OK (5 tests)
+
+
+### Execution
     D:\Sapient\prejoining-learning-program\Week4\week4-java-assignment1>java -jar week4-java-assignment1.jar
     Enter 5 Integers : 12 46 89 89 10
     Array Content : 12 46 89 89 10
