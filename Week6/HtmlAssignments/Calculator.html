@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <title>Calculator</title>
+
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+        
+
+        <style type="text/css">
+            .container {
+                width: 25%;
+                margin: 50px auto;
+                background: #fdfdfd;
+                box-shadow: 1px 1px 2px 2px rgba(0, 0, 0, 0.3);
+                padding: 10px;
+            }
+
+            .row, .result-row {
+                padding-left: 15px;
+                padding-right: 15px;
+            }
+
+            .result-row {
+                margin-bottom: 10px;
+            }
+
+            .col, .col-6, .col-9{
+                margin: 0px;
+                padding: 0px;
+            }
+
+            .form-contorl {
+                margin: 0px;
+                padding: 0px;
+            }
+            
+        </style>
+    </head>
+    <body>
+        <div class="container">
+            <div class="row result-row" >
+                <div class="col-9">
+                    <input class="form-control" type="text" id="result" disabled>
+                </div>
+                <div class="col">
+                    <button type="button" class="btn btn btn-block btn-danger" value="C">C</button>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col">
+                    <button type="button" class="btn btn-lg btn-block btn-light" value="7">7</button>
+                </div>
+                <div class="col">
+                    <button type="button" class="btn btn-lg btn-block btn-light" value="8">8</button>
+                </div>
+                <div class="col">
+                    <button type="button" class="btn btn-lg btn-block btn-light" value="9">9</button>
+                </div>
+                <div class="col">
+                    <button type="button" class="btn btn-lg btn-block btn-secondary" value="+">+</button>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col">
+                    <button type="button" class="btn btn-lg btn-block btn-light" value="4">4</button>
+                </div>
+                <div class="col">
+                    <button type="button" class="btn btn-lg btn-block btn-light" value="5">5</button>
+                </div>
+                <div class="col">
+                    <button type="button" class="btn btn-lg btn-block btn-light" value="6">6</button>
+                </div>
+                <div class="col">
+                    <button type="button" class="btn btn-lg btn-block btn-secondary" value="-">-</button>
+                </div>
+            </div> 
+            <div class="row">  
+                <div class="col">
+                    <button type="button" class="btn btn-lg btn-block btn-light" value="1">1</button>
+                </div>
+                <div class="col">
+                    <button type="button" class="btn btn-lg btn-block btn-light" value="2">2</button>
+                </div>
+                <div class="col">
+                    <button type="button" class="btn btn-lg btn-block btn-light" value="3">3</button>
+                </div>
+                <div class="col">
+                    <button type="button" class="btn btn-lg btn-block btn-secondary" value="*">*</button>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col">
+                    <button type="button" class="btn btn-lg btn-block btn-light" value=".">.</button>
+                </div>
+                <div class="col">
+                    <button type="button" class="btn btn-lg btn-block btn-light" value="0">0</button>
+                </div>
+                <div class="col">
+                    <button type="button" class="btn btn-lg btn-block btn-success" value="=">=</button>
+                </div>
+                <div class="col">
+                    <button type="button" class="btn btn-lg btn-block btn-secondary" value="/">/</button>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>     
